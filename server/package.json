@@ -1,0 +1,15 @@
+{
+  "name": "type-safe-api-requests-server",
+  "types": "dist/schema.d.ts",
+  "scripts": {
+    "build:types": "openapi-typescript openapi.yaml -o dist/schema.d.ts",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "swagger-ui-express": "^5.0.0",
+    "yaml": "^2.3.4"
+  },
+  "devDependencies": {
+    "openapi-typescript": "^6.7.1"
+  }
+}

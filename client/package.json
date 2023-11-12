@@ -1,0 +1,12 @@
+{
+  "name": "type-safe-api-requests-client",
+  "scripts": {
+    "start": "vite ./src -c ./vite.config.ts --open"
+  },
+  "dependencies": {
+    "openapi-fetch": "^0.8.1"
+  },
+  "devDependencies": {
+    "vite": "^4.5.0"
+  }
+}
